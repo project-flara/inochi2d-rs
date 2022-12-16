@@ -95,3 +95,5 @@ impl Drop for Inochi2DPuppet {
         }
     }
 }
+
+unsafe impl Send for Inochi2DPuppet {}

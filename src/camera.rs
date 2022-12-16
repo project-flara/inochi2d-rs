@@ -264,3 +264,6 @@ impl Drop for Inochi2DCamera {
         }
     }
 }
+
+
+unsafe impl Send for Inochi2DCamera {}
